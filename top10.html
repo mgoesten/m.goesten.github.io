@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Top 10 speciaalbieren</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+  background-color(tr:nth-child(odd)): white;
+    color: black;
+
+  tr:nth-child(even)
+    background-color: #4d4d4d;
+    color: white;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #eeeeee;
+}
+.hero-image {
+  background-image: url("top10.jpg");
+  background-color: #cccc0c;
+  height: 270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+p2 {
+  background-color: #000000;
+}
+p2 {color: black
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+</style>
+<style>
+.tekst {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px;
+}
+h1 { color: white}
+
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background-image: url("schuim.jpg");
+  padding: 16px;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25.%;
+  padding: 10px;
+  background-image: url("bier.jpg");
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #333333;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #4d4d4d;
+  color: white;
+}
+</style>
+<style>
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+h2 {
+  color: white;
+  font-size: 77px;
+  text-shadow: 0 0 60px #663300, 0 0 60px #663300;
+
+td, th {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+h3 {
+  color: black;
+  font-size: 23px;
+}
+</style>
+</head>
+
+<body>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Alle soorten merken
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="header">
+          <h3>Alle soorten merken</h3>
+        </div>
+      <div class="row">
+        <div class="column">
+          <h3> </h3>
+          <a href="heineken.html">Heineken</a>
+          <a href="Amstel.html">Amstel</a>
+          <a href="Grolsch.html">Grolsch</a>
+          <a href="bavaria.html">Bavaria</a>
+        </div>
+        <div class="column">
+          <h3> </h3>
+          <a href="bud.html">Budweiser</a>
+          <a href="Jupiler.html">Jupiler</a>
+          <a href="Brand.html">Brand</a>
+          <a href="Hertog.Jan.html">Hertog Jan</a>
+        </div>
+        <div class="column">
+          <h3> </h3>
+          <a href="Dommelsch.html">Dommelsch</a>
+          <a href="Desperados.html">Desperados</a>
+          <a href="Corona.extra.html">Corona Extra</a>
+          <a href="Guinness.html">Guinness</a>
+        </div>
+        <div class="column">
+          <h3> </h3>
+          <a href="palm.html">Palm</a>
+          <a href="alfa.html">Alfa</a>
+          <a href="lachouffe.html">La Chouffe</a>
+          <a href="warsteiner.html">Warsteiner</a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="active" href="top10.html">top 10 speciaal bieren</a>
+    <div class="topnav-right">
+    <a onclick="myFunction()"><img src="lightmode.png" height="20px" ></a>
+    </div>
+  </div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h2>Top 10 speciaal bieren</h2>
+
+
+  </div>
+</div>
+<input id="myInput" type="text" style="font-size: 40px" placeholder="Filter op categorie...">
+<table>
+
+  <tr>
+    <td>Naam</td>
+    <th>Emelisse White Label 2019 No 3</th>
+    <th>Hertog Jan Vatgerijpt Rutte (2019)</th>
+    <th>Gulden Draak Imperial Stout Limited Edition 2018</th>
+    <th>Duvel Tripel Hop Cashmere</th>
+    <th>Val Dieu Grand Cru</th>
+    <th>Hertog Jan Vatgerijpt Goose Island</th>
+    <th>Thornbridge Hall Bracia</th>
+    <th>Dutch Bargain Imperial Russian Stout</th>
+    <th>Schneider Weisse Aventinus Eisbock</th>
+    <th>Westvleteren 12</th>
+  </tr>
+  <tr>
+    <td>foto</td>
+    <td> <img src="whitelabel.png" height="200px" width="112px"> </td>
+    <td> <img src="rutte.png" height="200px" width="112px"> </td>
+    <td> <img src="draak.png" height="200px"> </td>
+    <td> <img src="duvel.png" height="200px"> </td>
+    <td> <img src="val.png" height="200px"> </td>
+    <td> <img src="goose.png" height="200px" width="112px"> </td>
+    <td> <img src="bracia.png" height="200px" width="112px"> </td>
+    <td> <img src="dutch.png" height="200px"> </td>
+    <td> <img src="weisse.png" height="200px" width="112px"> </td>
+    <td> <img src="westvleteren.png" height="200px" width="112px"> </td>
+  </tr>
+  <tbody id="myTable">
+  <tr>
+    <td>Alcohol percentage</td>
+    <td>13,5%</td>
+    <td>14,1%</td>
+    <td>12,0%</td>
+    <td>9,5%</td>
+    <td>10,5%</td>
+    <td>11,5%</td>
+    <td>10,0%</td>
+    <td>11,5%</td>
+    <td>12,0%</td>
+    <td>10,2%</td>
+
+  </tr>
+
+  <tr>
+    <td>Brouwerij</td>
+    <td>Brouwerij Emelisse</td>
+    <td>Hertog Jan Brouwerij</td>
+    <td>Brouwerij van steenberge</td>
+    <td>Duvel Moortgat</td>
+    <td>Bierbrouwerij Abbaye du Val-Dieu</td>
+    <td>Hertog Jan Brouwerij</td>
+    <td>Thornbridge Brewery</td>
+    <td>Het Brouwerslokaal</td>
+    <td>Schneider Weisse</td>
+    <td>Sint-Sixtusabdij Trappist Westvleteren</td>
+
+  </tr>
+  <tr>
+    <td>Bierstijl</td>
+    <td>Russian Imperial Stout</td>
+    <td>Barley Wine</td>
+    <td>imperial Stout</td>
+    <td>Blond</td>
+    <td>Strong ale</td>
+    <td>Barley Wine</td>
+    <td>Strong Ale</td>
+    <td>Imperial Stout</td>
+    <td>Eisbock</td>
+    <td>Quadrupel</td>
+
+  </tr>
+  <tr>
+    <td>Categorie</td>
+    <td>Intens en Uitdagend</td>
+    <td>Intens en Uitdagend</td>
+    <td>Intens en Uitdagend</td>
+    <td>Blond en Krachtig</td>
+    <td>Donker en Rijk</td>
+    <td>Intens en Uitdagend</td>
+    <td>Blond en Krachtig</td>
+    <td>Intens en Uitdagend</td>
+    <td>Intens en Uitdagend</td>
+    <td>Donker en Rijk</td>
+
+  </tr>
+  <tr>
+    <td>Spijzen</td>
+    <td>Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Vette vis, Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Vette vis, Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Vette vis, Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Vette vis, Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Vette vis, Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Witvis, Vette vis, Vleesgerechten, Zoete desserts</td>
+    <td>Vette vis, Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+    <td>Gekruide gerechten, Vleesgerechten, Pittige en belegen kazen, Zoete desserts</td>
+
+  </tr>
+  <tr>
+    <td>Drinktemp.</td>
+    <td>14 °C</td>
+    <td>12 °C</td>
+    <td>12 °C</td>
+    <td>8 °C</td>
+    <td>10 °C</td>
+    <td>14 °C</td>
+    <td>10 °C</td>
+    <td>10-12 °C</td>
+    <td>14 °C</td>
+    <td>12 °C</td>
+
+  </tr>
+  <tr>
+    <td>Volume</td>
+    <td>33 cl</td>
+    <td>75 cl</td>
+    <td>33 cl</td>
+    <td>33 cl</td>
+    <td>75 cl</td>
+    <td>75 cl</td>
+    <td>50 cl</td>
+    <td>33 cl</td>
+    <td>33 cl</td>
+    <td>33 cl</td>
+
+  </tr>
+  <tr>
+    <td>Gisting</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+    <td>Bovengistend</td>
+
+  </tr>
+  <tr>
+    <td>Drinkmoment</td>
+    <td>Haardvuur, In goed gezelschap, Alleen, bij een boek, Voor het slapen gaan</td>
+    <td>Haardvuur, In goed gezelschap, Alleen, bij een boek, Bij het eten, Voor het slapen gaan</td>
+    <td>Haardvuur, In goed gezelschap, Bij het eten, Voor het slapen gaan</td>
+    <td>Terras, Barbecue, In goed gezelschap, Alleen, bij een boek, Bij het eten</td>
+    <td>Haardvuur, Bij het eten, Voor het slapen gaan</td>
+    <td>Haardvuur, In goed gezelschap, Bij het eten, Voor het slapen gaan</td>
+    <td>Alleen, bij een boek, Voor het slapen gaan</td>
+    <td>Haardvuur, Barbecue, In goed gezelschap, Bij het eten</td>
+    <td>Haardvuur, In goed gezelschap, Bij het eten, Voor het slapen gaan</td>
+    <td>Haardvuur, In goed gezelschap, Bij het eten, Voor het slapen gaan</td>
+
+  </tr>
+  <tr>
+    <td>Verhaal</td>
+    <td>Emelisse White Label 2019 No 3 is een Imperial Russian Stout uit de White label serie van brouwerij Emelisse. De rijping van het bier heeft plaatsgevonden op rumvaten van het merk Belize. Een bier met smaken als koffie, chocolade met licht zoete tonen.</td>
+    <td>Hertog Jan Vatgerijpt Rutte (2019) is een fascinerend bier. De Hertog Jan Grand Prestige heeft ruim acht maanden mogen rijpen op bourbonvaten waar eerder de jenevers van Rutte op hebben gelegen. Daarnaast is een extract toegevoegd van hazelnoot, walnoot, johannesbrood, kaneel en kers. Het levert een ongekende smaaksensatie op.</td>
+    <td>Brouwerij Van Steenberge heeft met deze zeer krachtige limited edition een visitekaartje afgegeven. Deze imperial stout is vol en krachtig en heeft een stevige gebrande bitterheid</td>
+    <td>Duvel Tripel Hop Cashmere is een zwaar blond vol met tropisch fruit en citrus. Aroma's van meloen, perzik en zelfs kokosnoot zitten in dit bier opgesloten. Deze speciale uitgave is gebrouwen met Cashmere, een nieuwe, moeilijk verkrijgbare hopsoort, die verantwoordelijk is voor de aroma's van tropisch fruit.</td>
+    <td>Val Dieu Grand Cru is het topstuk in de collectie van de Val Dieu-abdij. Het is met 10,5% alcohol een zwaargewicht. De smaak is zoet, maar bovenal fruitig. Complex, met een volle, ronde body.</td>
+    <td>Hertog Jan Grand Prestige is voor het eerst buiten Nederland gebrouwen in de brouwerij van Goose Island in de Verenigde Staten. Deze 'Amerikaanse' Grand Prestige heeft vervolgens gerijpt op vaten in de brouwerij, die wereldberoemd is vanwege zijn Bourbon County-bieren. Het resultaat van deze samenwerking tussen Hertog Jan en Goose Island is verbluffend.</td>
+    <td>Thornbridge Hall Bracia behoort tot de meest gewaardeerde bieren ter wereld. Dit is een ongekend topbier. De complexe smaak zit vol met tonen van drop, chocolade, koffie, hazelnoot en een pietsie turf. In dit bier tref je bovendien de bittere smaak van kastanjes en het zoet van Italiaanse honing.</td>
+    <td>Dutch Bargain Imperial Russian Stout is een zeer donker, bijna zwart, bier met een mokka kleurige schuimkraag. In dit bier worden de klassieke smaken van een English Stout gecombineerd met een complexe, hoge moutstort. De koffie tonen in dit bier zorgen samen met de koffie bitterheid en de afwerking met pure cacao, voor een romige afdronk ontstaat met een vleugje chocolade.</td>
+    <td>Deze mahoniekleurige Schneider Weisse Aventinus Eisbock is pure magie. De brouwwijze volgens een speciaal recept met een klassieke ijsbehandeling geeft de Eisbock zijn krachtige intense karakter en uitgebreide smakenpalet. Je proeft blauwe pruimen, bananen en aroma’s van kruidnagel. De fluwelen touch komt door de smaakbeleving van amandel en marsepein. Heerlijk met pure chocolade, tiramisu of met een stuk volrijpe Parmezaanse kaas.</td>
+    <td>Westvleteren 12 behoeft eigenlijk geen toelichting. Dit vlaggenschip van de Sint-Sixtusabdij kreeg ooit het stempel "Beste bier ter wereld'. Sindsdien is het misschien wel meest begeerde bier op onze aarde. Het zware trappistenbier wordt op beperkte schaal gebrouwen en is officieel alleen verkrijgbaar via de bierlijn van de abdij. Als echte bierliefhebber heb je dit bier op je bucketlist.</td>
+
+  </tr>
+  </tbody>
+</table>
+
+</body>
+<body>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+
+</body>
+</html>
